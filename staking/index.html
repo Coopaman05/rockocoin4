@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta http-equiv="cache-control" content="no-cache" />
+   <link rel="shortcut icon" href="img/600x600.png" type="image/x-icon">
+   <title>ROCKO Staking</title>
+   <link rel="shortcut icon" type="img/250x250.png" href="#">
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+   <link href="Https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+   <link href="css/animate.css" rel="stylesheet">
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+   <link href="css/style.css" rel="stylesheet">
+   <link href="css/responsive.css" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      rel="stylesheet">
+   <link href="Https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css" rel="stylesheet">
+   <style type="text/css">
+      body {
+         background-image: url('img/bg1.png');
+         /* Add your image URL or path here */
+         background-size: cover;
+         /* Cover the entire viewport */
+         background-position: center;
+         /* Center the image in the page */
+         background-repeat: no-repeat;
+         /* Do not repeat the image */
+      }
+
+      .small_multi_boxes .box_sm_1:nth-child(1):before {
+         background-image: url(img/main_logo.html);
+      }
+
+      #faq {
+            padding: 50px;
+            background-color: #f9f9f900;
+        }
+        .faq-item h3 {
+            cursor: pointer;
+            color: #007bff;
+        }
+        .faq-item p {
+            display: none;
+            color: #c4cdf3;
+        }
+   </style>
+</head>
+
+<body class="index_page farm_page dark">
+   <div class="header_area clearfix" id="back-top-here">
+      <nav class="navbar navbar-default clearfix">
+         <div class="container-fluid ">
+            <div class="navbar-header clearfix">
+               <button type="button" class="navbar-toggle navbar-toggle-my" data-toggle="collapse"
+                  data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand logo" href="index.html"><img class="light_logo" src="img/heads.png" /> <img
+                     class="dark_logo" src="img/600x600.png" style=""></a>
+            </div>
+            <div class="navbar-collapse collapse clearfix " id="myNavbar">
+               <ul class="right_cutom_btns nav navbar-nav navbar-right">
+                  <li class="btn_here" id="clb"><!-- <a style="cursor:pointer" id="btn-connect">Wallet Connect</a> -->
+                     <button style="cursor:pointer" id="btn-connect">Wallet Connect</button>
+                  </li>
+                  <li class="btn_here"> <button style="cursor:pointer" id="stake_Token" data-toggle="modal"
+                        data-target="#book_ticket">Stake $ROCKO</button></li>
+                  <li><a class="soc_top" href="https://twitter.com/RockoTheDogo" target="_blank"><i
+                           class="fab fa-twitter"></i></a></li>
+                  <li><a class="soc_top" href="https://t.me/RockoTheDogo" target="_blank"><i
+                           class="fab fa-telegram"></i></a></li>
+                  <li><a class="mar_left light soc_top" href="javascript:void(0)"><i class="fas fa-sun"></i></a></li>
+                  <li><a class="dark soc_top" href="javascript:void(0)"><i class="fas fa-moon"></i></a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <div style="clear:both"></div>
+   </div>
+   <div style="clear:both"></div>
+
+
+
+
+
+
+
+
+   <div class="back_full"></div>
+   <div class="back_handle">
+      <div class="bg_image_main"></div>
+      <section class="main_home">
+         <div class="main_main text-left">
+            <div class="con_width">
+               <div class="row clearfix">
+                  <div class="col-sm-6">
+                     <div class="m_title">
+                        <h2>Stake & Earn Rocko</h2>
+                        <p>Easily Stake $ROCKO Token For High APR, Low Risk.</p>
+                     </div>
+                  </div>
+                  <div class="col-sm-6">
+                     <div class="row clearfix">
+                        <div class="col-sm-6">
+                           <div class="claim_sngke">
+                              <h5>Recent $ROCKO Profit</h5>
+                              <div class="clearfix">
+                                 <h5 class="pull-left" id="pendingReward">0.00</h5>
+                                 <div class="pull-right">
+                                    <!-- <button disabled="disabled" id="cliamReward">Claim</button> -->
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-sm-6">
+                           <div class="claim_sngke">
+                              <h5>$ROCKO Staked</h5>
+                              <div class="clearfix">
+                                 <h5 class="pull-left" id="TokenStake">0.00</h5>
+                                 <div class="pull-right">
+                                    <!-- <button disabled="disabled" id="cliamToken">Claim</button> -->
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-sm-6">
+
+                           <h3></h3>
+                           <h3>
+                              <div id="totalStakedTokens">Total $ROCKO Staked: 0 Tokens</div>
+                           </h3>
+
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+   </div>
+   </div>
+   <div class="small_multi_boxes con_width clearfix">
+      <div class="text-center clearfix width_center clearfix">
+         <div class="pull-left padt20">
+            <div class="list_grid list_grid_changer list" style="padding-left: 15px;"> <span class="list"><i
+                     class="fas fa-list"></i></span> <span class="grid"><i class="fas fa-th"></i></span> </div>
+         </div>
+         <div class="tab-content  list_grid_working list">
+            <div id="Live" class="tab-pane fade in active">
+               <div class="ff_height clearfix">
+                  <div class="box_ani box_sm_1 my_single wow  " data-wow-duration="800ms" data-wow-delay="400ms">
+                     <div class="box_3 clearfix" id="st_records">
+                        <div class="single_bb clearfix">
+                           <div class="sm_img recc"> <img src="img/heads.png" class="img-responsive" /> </div>
+                           <div class="title_bb recc">
+                              <h4>EARN $ROCKO</h4>
+                              <p>STAKE $ROCKO</p>
+                           </div>
+                           <div class="recc recc_text clearfix">
+                              <p class="grid_left">Total Staked</p>
+                              <div class="grid_right">
+                                 <h4 id="totalStaked">0.00 $ROCKO</h4>
+                              </div>
+                           </div>
+                           <div class="recc recc_text clearfix">
+                              <p class="grid_left">Start Time</p>
+                              <div class="grid_right">
+                                 <h4 id="startTime">00:00:00 00:00:00</h4>
+                              </div>
+                           </div>
+                           <div class="recc recc_text clearfix">
+                              <p class="grid_left">End Time</p>
+                              <div class="grid_right">
+                                 <h4 id="endTime">00:00:00 00:00:00</h4>
+                              </div>
+                           </div>
+                           <div class="recc recc_text">
+                              <ul class="custom_tabs text-center">
+                                 <li class="">
+                                    <a href="javascript:void(0)" data-vid='0'>
+                                       <span class="de">Details <i class="fas fa-angle-down"></i></span>
+                                       <span class="hi">Hide <i class="fas fa-angle-up"></i></span>
+                                    </a>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div style="clear: both;"></div>
+                           <div class="tab-content-custom">
+                              <div id="detail1" class="single_tab" data-id='0'>
+                                 <div class="custom_table">
+                                    <div class="clearfix">
+                                       <div class="clearfix">
+                                          <div class="col-sm-4 pull-right" id="">
+                                             <div class="main_box_insm bottom_here">
+                                                <div class="clearfix">
+                                                   <div class="title">Withdraw</div>
+                                                   <button class="btnbtn " disabled="disabled">Withdraw</button>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-sm-4 pull-right">
+                                             <div class="main_box_insm grid_hide_box">
+                                                <div class="clearfix">
+                                                   <div class="title">$ROCKO Earned</div>
+                                                   <div class="heightlight" id="TokenEarned">0</div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-sm-4 pull-left">
+                                             <div class="links">
+                                                <p class="clearfix"><a class="pull-left"
+                                                      href="https://www.coingecko.com/en/coins/rockocoin"
+                                                      target="_blank">See Rocko Info on CoinGecko <i
+                                                         class="fas fa-share-square"></i></a></p>
+                                                <p class="clearfix"><a class="pull-left" href="https://rockocoin.com/"
+                                                      target="_blank">View Project Site <i
+                                                         class="fas fa-share-square"></i></a></p>
+                                                <p class="clearfix"><a class="pull-left" href="#" target="_blank">View
+                                                      Contract <i class="fas fa-share-square"></i></a></p>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+<!-- FAQ Section -->
+<section id="faq">
+   <div class="container">
+       <h2>Frequently Asked Questions</h2>
+       <div class="faq-item">
+           <h3>How do I stake $ROCKO?</h3>
+           <p>To stake $ROCKO, go to the Stake $ROCKO section, connect your wallet, and follow the instructions.</p>
+       </div>
+       <div class="faq-item">
+         <h3>What is the current APY% rate and how long is the staking period?</h3>
+         <p>Staking is 14 dayS lock period for 329.92% APY (Annual Percentage Yield). This is subject to change in future.</p>
+     </div>
+     <div class="faq-item">
+      <h3>What is the maximum tokens allowed to stake?</h3>
+      <p>Maximum tokens allowed to be staked is 20,000,000 $Rocko tokens.</p>
+  </div>
+  <div class="faq-item">
+   <h3>What if I unstaked early is there any tax or fee?</h3>
+   <p>If you unstake early without finishing staking period, 25% tax/fee will be collected on your withdrawal. This fee will go straight to the staking contract.</p>
+</div>
+   
+</section>
+
+
+                     </div>
+
+                  </div>
+               </div>
+            </div>
+            <div id="Finished" class="tab-pane fade">
+               <div class="empty"> <img src="img/empty.html" class="img-responsive"
+                     style="height: 150px;margin:auto;margin-top: 50px;" /> </div>
+            </div>
+         </div>
+      </div>
+      </section>
+   </div>
+   <div class="modal fade book_ticket_pop" id="book_ticket" tabindex="-1" role="dialog"
+      aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+         <div class="modal-content">
+            <div class="modal-header">
+               <h5 class="modal-title" id="exampleModalLabel">Stake in Pool</h5>
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+               </button>
+            </div>
+            <div class="modal-body">
+               <div class="mod_inner">
+                  <div class="top_input_box">
+                     <h5>Min Stake : <span id="min">0.00 $ROCKO</span></h5>
+                     <div class="top_label clearfix">
+                        <label class="pull-left">Stake:</label>
+                     </div>
+                     <div class="input_box">
+                        <select name="package" id="package_id">
+                           <option value="0">1 Days</option>
+                           <option value="1">7 Days</option>
+                           <option value="2">14 Days</option>
+                        </select>
+                        <div style="clear:both;"></div>
+                     </div>
+                     <div class="input_box">
+                        <input type="text" placeholder="0" id="amountToStake" value="0" class="onlynumeric"
+                           oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '1');">
+                        <div style="clear:both;"></div>
+                     </div>
+                     <span id="error"></span>
+                     <div class="stable_bal">Balance: <span id="balance">00</span> $ROCKO</div>
+                     <div class="percentage">
+                        <div class="col-sm-3 col-xs-3 percentageCalc" rel="4">
+                           <p>25%</p>
+                        </div>
+                        <div class="col-sm-3 col-xs-3 percentageCalc" rel="2">
+                           <p>50%</p>
+                        </div>
+                        <div class="col-sm-3 col-xs-3 percentageCalc" rel="3">
+                           <p>75%</p>
+                        </div>
+                        <div class="col-sm-3 col-xs-3 percentageCalc" rel="1">
+                           <p>100%</p>
+                        </div>
+                     </div>
+                     <div class="view-buy other_btn">
+                        <button id="confirm" style="cursor: pointer; "><span>Confirm</span></button>
+                        <button id="enable_Token" style="cursor: pointer;"><span>Enable</span></button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="modal fade book_ticket_pop" id="with_ticket" tabindex="-1" role="dialog"
+      aria-labelledby="exampleModalLabel1" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+         <div class="modal-content">
+            <div class="modal-header">
+               <h5 class="modal-title" id="exampleModalLabel1">Withdraw</h5>
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+               </button>
+            </div>
+            <div class="modal-body">
+               <div class="mod_inner">
+                  <input type="hidden" id="widsid" value="" />
+                  <div class="top_input_box">
+
+                     <div class="input_box">
+                        <select name="coin" id="coin_id">
+                           <option value="0">$ROCKO</option>
+                           <option value="1">$ROCKO</option>
+                        </select>
+                        <div style="clear:both;"></div>
+                     </div>
+                     <div class="view-buy other_btn">
+                        <button id="confirmWith" style="cursor: pointer; "><span>Withdraw</span></button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   
+
+  
+   <script src="https://unpkg.com/@metamask/legacy-web3@latest/dist/metamask.web3.min.js"></script>
+   <script type="text/javascript" src="js/jquery.js"></script>
+   <script type="text/javascript" src="js/bootstrap.min.js"></script>
+   <script type="text/javascript" src="dist/index.js"></script>
+   <script type="text/javascript"
+      src="Https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+   <script type="text/javascript"
+      src="Https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+   <script type="text/javascript" src="Https://unpkg.com/web3%401.2.11/dist/web3.min.js"></script>
+   <script type="text/javascript" src="Https://unpkg.com/evm-chains%400.2.0/dist/umd/index.min.js"></script>
+   <script type="text/javascript"
+      src="Https://unpkg.com/%40walletconnect/web3-provider%401.6.6/dist/umd/index.min.js"></script>
+   <script type="text/javascript" src="Https://unpkg.com/fortmatic%402.0.6/dist/fortmatic.js"></script>
+   <script type="text/javascript" src="js/wallets.js"></script>
+
+   <script>
+      // Optional JavaScript for FAQ interactivity
+      document.querySelectorAll('.faq-item h3').forEach(item => {
+          item.addEventListener('click', event => {
+              let p = item.nextElementSibling;
+              p.style.display = p.style.display === 'block' ? 'none' : 'block';
+          });
+      });
+  </script>
+</body>
+
+</html>

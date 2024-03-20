@@ -1,0 +1,566 @@
+.grid .main_box_insm.bottom_here{
+    display: block;
+}
+@media screen and (max-width: 1191px) and (min-width: 767px) {
+    .main_box_big{
+        width: 97% !important;
+    }
+    .small_multi_boxes .box_ani.my_single .img_content h2, .finish_box h2  {
+        font-size: 25px;
+            line-height: 33px;
+            margin-right: 0px;
+    }
+    .farm_page .small_multi_boxes .box_ani {
+        width: 48%;
+        padding:0px;
+    }
+    .farm_page .small_multi_boxes .sm_img {
+        height: auto;
+        width: 60px;
+    }
+    .tba_box {
+        width: 100%;
+    }
+    .small_ajax_boxes .col-sm-3 {
+        width: 50%;
+        float: left;
+    }
+}
+
+@media (max-width: 1191px) {
+    .single_low_info .low_cols {
+        width: 100%;
+        float: none;
+    }
+    .list .recc.title_bb {
+        padding-left: 10px !important;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .con_width {
+        width: 96%;
+    }
+}
+@media (min-width: 767px) {
+    .menu .navbar-collapse li a span{
+        opacity: 1;
+    }
+    .adjust .menu .navbar-collapse li a span{
+        opacity: 0;
+    }
+    .adjust_click.adjust .menu .navbar-collapse {
+        width: 220px !important;
+    }
+    .adjust_click.adjust .menu .navbar-collapse .navbar-nav {
+        padding: 0px;
+    }
+    .adjust_click.adjust .menu .navbar-collapse .nav>li>a{
+        text-align: left !important;
+        border-radius: 0px !important;
+    }
+    .adjust_click.adjust .menu .navbar-collapse li a span {
+        opacity: 1;
+        height: auto;
+        width: auto;
+        display: block;
+    }
+    .small_multi_boxes .box_ani:before{
+        display: none;
+    }
+    .adjust.mob_adjust .menu .navbar-collapse .nav>li>a {
+        /* margin-bottom: 15px !important; */
+            padding: 0px !important;
+    }
+    .adjust.adjust_click .menu .navbar-collapse .nav>li>a {
+        /* margin-bottom: 15px !important; */
+            padding: 10px 13px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-nav {
+        margin: 0;
+    }
+    .nav>li {
+        float: left;
+    }
+    .menu .navbar-collapse{
+        display: block;
+    }
+    .navbar-header{
+        padding: 0px 15px;
+    }
+    .navbar-default .navbar-toggle .main_menu_icons {
+        display: none;
+    }
+    .navbar-default .navbar-toggle .click_icon {
+        display: block;
+    }
+    .navbar-default .navbar-toggle.collapsed .main_menu_icons {
+        display: block;
+    }
+    .navbar-default .navbar-toggle.collapsed .click_icon {
+        display: none;
+    }
+    .menu .navbar-collapse {
+        left: 0px;
+        overflow: hidden;
+        width: 0px !important;
+    }
+    .adjust .menu .navbar-collapse, .mob_adjust .menu .navbar-collapse{
+        width: 0px !important;
+    }
+    .adjust .menu .navbar-collapse{
+        width: 220px!important;
+    }
+    .socials{
+        display: none;
+    }
+    .adjust .socials{
+        display: block;
+    }
+    .mob_adjust.adjust .menu .navbar-collapse li a span{
+        display: none;
+    }
+    .mob_adjust.adjust .menu .navbar-collapse li a span{
+        display: block;
+        opacity:1;
+        height: auto;
+        width: auto;
+    }
+    .mob_adjust.adjust .menu .navbar-collapse .nav>li>a:focus, .mob_adjust.adjust .menu .navbar-collapse .nav>li>a:hover, .mob_adjust.adjust .menu .navbar-collapse .nav>li.active a{
+        
+    }
+    .mob_adjust.adjust .menu .navbar-collapse .nav>li>a{
+        text-align: left;
+        padding: 10px 13px !important;
+        text-align: left;
+    }
+    .adjust .menu .navbar-collapse .navbar-nav {
+        margin-right: 0px;
+        padding: 10px 0px;
+        padding-bottom: 50px;
+    }
+    .menu .nav li.active:before {
+        display: none;
+    }
+    .mob_adjust.adjust .menu .nav li.active:before {
+        position: absolute;
+        content: "";
+        background: #77adff;
+        width: 7px;
+        height: 100%;
+        top: 0;
+        left: 0;
+        -webkit-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        transition: all 0.5s;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        display: block;
+    }
+
+    .adjust_click.adjust .menu .navbar-collapse {
+        width: 220px !important;
+    }
+    .box_ani.my_single.main_box_big, .box_ani.my_single {
+        width: 96%;
+            padding: 15px 15px !important;
+    }
+    .img_here .im_logo {
+        height: 55px;
+    }
+    .top_home{
+        margin-bottom: 0px;
+        padding: 25px 25px
+    }
+    .box_ani.my_single .img_content h2, .finish_box h2  {
+        font-size: 29px;
+        line-height: 40px;
+    }
+    .multi_boxes .col-sm-3 {
+        width: 50%;
+        float: left;
+    }
+    a.navbar-brand.logo img {
+        height: 54px;
+    }
+    .navbar-default .navbar-toggle {
+        margin-top: 17px;
+        margin-right: -3px;
+    }
+    a.navbar-brand.logo {
+        padding: 6px 4px;
+    }
+    .single_time .text_s {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .small_multi_boxes .box_ani, .farm_page .small_multi_boxes .box_ani {
+        width: 100%;
+        margin: 0px 0px;
+        margin-top: 30px;
+    }
+    .small_multi_boxes .box_ani.my_single .img_content h2, .single_low_info h3 {
+        font-size: 23px;
+        line-height: 35px;
+    }
+    .main_box_big .img_content h2{
+        margin-top: 0px;
+    }
+    .farm_page .top_home p, .lottery_page .top_home p {
+        font-size: 30px;
+        line-height: 37px;
+    }
+    .navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu>li>a {
+        padding: 9px 15px 9px 25px;
+    }
+    .adjust .top_bottom {
+        display: block;
+    }
+    .switch_here {
+        float: none;
+    }
+    .small_multi_boxes .nav-tabs {
+        float: none;
+        margin-left: 0px;
+        margin-top: 14px;
+    }
+    .single_time .text_s {
+        height: 113px;
+        width: 113px;
+        line-height: 96px;
+        font-size: 15px;
+        border: 5px solid #a0c6ff;
+    }
+    .small_multi_boxes .box_ani:before{
+        display: none;
+    }
+    .index_page .small_multi_boxes .box_ani {
+        margin-top: 30px;
+        min-height: 200px;
+    }
+    .farm_page .small_multi_boxes .box_ani{
+            border-radius: 10px;
+            padding: 15px 17px;
+            overflow: hidden;
+    }
+    .small_multi_boxes .nav-tabs li>a {
+        font-size: 16px;
+            padding: 7px 16px;
+    }
+    .box_ani.my_single {
+        border-radius: 12px;
+    }
+    .addreess_here {
+        padding: 11px;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+    .top_pos_icon{
+        display: none;
+    }
+    .lottery_page .box_ani.my_single {
+        margin-top: 0;
+    }
+    .refer_box  h3 {
+        font-size: 19px;
+        line-height: 25px;
+    }
+    .menu .navbar-nav li a {
+        font-size: 15px;
+    }
+    .farm_page .small_multi_boxes .sm_img {
+        height: auto;
+        width: 60px;
+    }
+    .lottery_box {
+        margin-top: 22px;
+        border-radius: 9px;
+        padding: 20px 10px;
+    }
+    .other_btn a {
+        border-radius: 7px!important;
+        padding: 10px 27px;
+        font-weight: 600;
+        font-size: 14px !important;
+    }
+    .lottery_page .top_home h4 {
+    font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .lottery_main_top h2 {
+        font-size: 43px;
+    }
+    .lottery_main_top {
+        padding: 30px 13px;
+    }
+    .lottery_buy_box h4 span {
+        font-size: 33px;
+    }
+
+    .tba_box {
+        width: 100%;
+        border-radius: 8px;
+    }
+    .tba_box .head_box {
+        padding: 12px 20px;
+    }
+    .tba_box .head_box h4 {
+        font-size: 20px;
+    }
+    .box_ani.my_single .head_box p {
+        padding: 0px 0px;
+    }
+    .body_box {
+        padding: 30px 20px;
+    }
+    .small_pricess .heading_price {
+        font-size: 19px;
+    }
+    .small_pricess .body_price {
+        padding-left: 15px;
+    }
+    .small_pricess .body_price h3 {
+        font-size: 24px;
+    }
+
+    .small_ajax_boxes .col-sm-3 {
+        width: 50%;
+        float: left;
+    }
+    .line_top, .small_ajax_boxes .col-sm-3 {
+        padding: 0px 5px;
+    }
+    .sn_box_body h4 {
+        font-size: 16px !important;
+    }
+    .sn_box_body h2 {
+        margin-bottom: 5px; 
+        font-size: 20px !important;
+    }
+    .hiff .clickkk {
+        padding: 13px 20px;
+        font-size: 16px;
+    }
+    .conn_wallet h3 {
+        font-size: 22px;
+        line-height: 32px;
+        padding-bottom: 10px !important;
+    }
+    .conn_wallet {
+        padding: 30px 20px;
+    }
+    .tba_box_history .body_box {
+        padding: 60px 20px;
+    }
+    .small_lotter_boxes {
+        padding: 40px 10px;
+    }
+    .lottery_page .back_handle .box_ani.my_single{
+        margin-bottom: 15px;
+    }
+    .small_lotter_boxes .small_multi_boxes .box_ani h6 {
+        text-align: left;
+    }
+    .single_low_info {
+        padding: 40px 15px;
+    }
+    .tx_graph {
+        padding: 20px 5px;
+    }
+    .mix_top h5 {
+        float: left !important;
+        width: 50%;
+    }
+    .mix_top h5.pull-right {
+        float: right !important;
+        text-align: right;
+    }
+    .sn_report p.pull-left span.bg {
+        height: 13px;
+        width: 13px;
+        top: 3px;
+    }
+    .sn_report p {
+        font-size: 15px;
+    }
+    .sn_report p.pull-left span.text {
+        padding-left: 20px;
+    }
+    .single_low_info .low_cols.col-sm-5{
+        padding: 0px; 
+    }
+    .single_low_info h4 {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .single_low_info p, .single_low_info li {
+        font-size: 15px;
+    }
+    .coming {
+        font-size: 23px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+    .main_main {
+        padding: 20px 20px;
+    }
+    .main_main h2 {
+        font-size: 31px;
+    }
+    .main_main p {
+        font-weight: 500;
+        font-size: 16px;
+    }
+    .claim_sngke{
+        margin-top: 15px;
+    }
+    .con_width {
+        width: 100%;
+    }
+    .list_grid{
+        display: none;
+    }
+    .small_multi_boxes {
+        padding: 0px 15px; 
+    }
+    .small_multi_boxes .nav-tabs li>a {
+        padding: 7px 21px;
+    }
+    .small_multi_boxes .box_ani {
+        padding: 0px 0px !important;
+    }
+    .index_page .small_multi_boxes .box_ani{
+        width: 100%;
+        float: none;
+    }
+    .list .recc, .farm_page .small_multi_boxes .sm_img{
+        width: 100%;
+        float: none;
+    }
+    .farm_page .small_multi_boxes .list .recc_text .grid_left {
+        float: left;
+    }
+    .farm_page .small_multi_boxes .list .recc_text .grid_right {
+        float: right;
+        text-align: right;
+    }
+    .list .single_bb .sm_img {
+        position: absolute;
+        left: auto;
+        right: 20px;
+        width: auto;
+    }
+    .list .ff_height .box_ani .title_bb {
+        background: #ededed;
+        padding: 30px 20px;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+    .list .title_bb h2 {
+        font-size: 29px;
+    }
+    .list .title_bb p, .list .recc_text p {
+        font-size: 14px;
+    }
+    .list .recc.recc_text {
+        padding-top: 0px !important;
+        padding-bottom: 5px !important;
+    }
+    .main_box_insm.bottom_here{
+        /*display: none;*/
+    }
+    .list .grid_show_box {
+        display: block;
+        width: 95%;
+        margin: auto;
+        margin-bottom: 10px;  
+    }
+    .main_box_insm.grid_hide_box {
+        display: none;
+    }
+    .tab-content-custom .custom_table {
+        padding: 10px 0px;
+    }
+    .adjust .back_handle {
+        margin-left: 0;
+    }
+    body.dark .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: #222038;
+    }
+    body.dark .list .ff_height .box_ani .title_bb {
+        background: #1d2122;
+    }
+    .list .recc.title_bb {
+        padding-left: 20px !important;
+    }
+    .padt20 {
+        padding-top: 0px;
+    }
+    .custom_table .col-sm-4{
+        width: 100%;
+    }
+    .single_bb  .custom_tabs{
+        display: none;
+    }
+    .single_bb .single_tab {
+        display: block;
+    }
+
+}
+@media (max-width: 550px) {
+    .box_ani.my_single .img_content h2, .finish_box h2, .single_low_info h3 {
+        font-size: 23px;
+        line-height: 29px;
+    }
+    .farm_page .top_home p, .lottery_page .top_home p {
+        font-size: 23px;
+        line-height: 31px;
+    }
+    .top_home {
+        margin-bottom: 0px;
+        padding: 10px 25px;
+    }
+    .small_multi_boxes .sm_img {
+        top: -2px;
+    }
+    .lottery_main_top h2 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .tba_box .head_box h4{
+        float: none !important;
+        text-align: center;
+        padding-bottom: 7px;
+    }
+    .small_pricess .body_price h3 {
+        font-size: 21px;
+    }
+    .small_pricess .heading_price {
+        font-size: 16px;
+    }
+    .lottery_buy_box h4 span {
+        font-size: 20px;
+    }
+    .lottery_buy_box h4 {
+        font-size: 16px;
+    }
+    .small_lotter_boxes h5 {
+        font-size: 14px;
+        line-height: 22px;
+        padding-bottom: 10px;
+    }
+    .nav>li.btn_here{
+            float: none;
+    }
+}
+
+@media (max-width: 400px) {
+    .small_ajax_boxes .col-sm-3{
+        float: none;
+        width: 100%;
+    }
+}
